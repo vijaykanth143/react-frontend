@@ -9,7 +9,7 @@ import { SiSinglestore } from "react-icons/si";
 import { __spreadArrays } from "tslib";
 
 const options = [
-  { value: "react", label: "React JS" },
+  { value: "reac", label: "React JS" },
   { value: "mysql", label: "MySql" },
   { value: "java", label: "JAVA" },
   { value: "springboot", label: "SpringBoot" },
