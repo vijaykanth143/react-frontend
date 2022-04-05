@@ -51,19 +51,22 @@ class UserRegister extends Component {
       <div className="bg-3">
         <form className="bg-1 zoomIn shadow-lg" onSubmit={this.handleSubmit}>
           <h1>Create Account</h1>
-          <label htmlFor="firstName" className="label">
-            first name
-          </label>
-          <div className="d-flex ">
-            <BiUserCircle className="icon" />
-            <input
-              type="text"
-              placeholder="Firstname"
-              name="ename"
-              onChange={this.handleChange}
-              className="inputname"
-            />
+          <div id="float-label">
+            <label htmlFor="firstName" className="label">
+              first name
+            </label>
+            <div className="d-flex ">
+              <BiUserCircle className="icon" />
+              <input
+                type="text"
+                placeholder="Firstname"
+                name="ename"
+                onChange={this.handleChange}
+                className="inputname"
+              />
+            </div>
           </div>
+
           <label htmlFor="lastName" className="label2">
             Last Name
           </label>
@@ -77,6 +80,7 @@ class UserRegister extends Component {
               className="inputname"
             />
           </div>
+
           <label htmlFor="email" className="label2">
             Email
           </label>
