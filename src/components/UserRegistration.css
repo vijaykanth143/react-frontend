@@ -238,3 +238,12 @@ input.error {
     opacity: 1;
   }
 }
+.success-icon{
+  font-size: 200px;
+  color: green;
+
+}
+.failed-icon{
+  font-size: 200px;
+  color: red;
+}
